@@ -2,4 +2,5 @@
 
 主要逻辑在CrowdFundingl.sol与Project.sol中.
 
-MemberVote.sol用于治理.
+MemberVote.sol与CToken.sol用于治理.
+
