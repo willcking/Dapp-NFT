@@ -1,0 +1,226 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\CODE\\solidity\\Token-crowdfund\\contracts\\CToken.sol": {
+      "lastModificationDate": 1723791401919,
+      "contentHash": "32645e7cea4f9daed158a9ddf1c12039",
+      "sourceName": "contracts/CToken.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl",
+        "AccessControlEnumerable",
+        "Address",
+        "Arrays",
+        "CToken",
+        "Context",
+        "Counters",
+        "ECDSA",
+        "EIP712",
+        "ERC165",
+        "ERC20",
+        "ERC20Burnable",
+        "ERC20Capped",
+        "ERC20FlashMint",
+        "ERC20Pausable",
+        "ERC20Permit",
+        "ERC20PresetFixedSupply",
+        "ERC20PresetMinterPauser",
+        "ERC20Snapshot",
+        "ERC20Votes",
+        "ERC20VotesComp",
+        "EnumerableSet",
+        "IAccessControl",
+        "IAccessControlEnumerable",
+        "IERC165",
+        "IERC20",
+        "IERC20Metadata",
+        "IERC20Permit",
+        "IERC3156FlashBorrower",
+        "IERC3156FlashLender",
+        "Math",
+        "MerkleProof",
+        "Pausable",
+        "SafeCast",
+        "SafeERC20",
+        "Strings",
+        "TokenTimelock"
+      ]
+    },
+    "D:\\CODE\\solidity\\Token-crowdfund\\contracts\\MemberVote.sol": {
+      "lastModificationDate": 1723801669732,
+      "contentHash": "324e3e372ad73ea65616c2bcac617f89",
+      "sourceName": "contracts/MemberVote.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MemberVote"
+      ]
+    },
+    "D:\\CODE\\solidity\\Token-crowdfund\\contracts\\Project.sol": {
+      "lastModificationDate": 1723810120642,
+      "contentHash": "bed9ba1a56891b78c2b448334cef223c",
+      "sourceName": "contracts/Project.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Project"
+      ]
+    },
+    "D:\\CODE\\solidity\\Token-crowdfund\\contracts\\SafeMath.sol": {
+      "lastModificationDate": 1723801427640,
+      "contentHash": "ab407782ada9b17165d398f8bce41288",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\CODE\\solidity\\Token-crowdfund\\contracts\\CrowdFunding.sol": {
+      "lastModificationDate": 1723812909205,
+      "contentHash": "08909e0e24399d780557c7bd8556f5fd",
+      "sourceName": "contracts/CrowdFunding.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol",
+        "./Project.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CrowdFunding"
+      ]
+    }
+  }
+}
